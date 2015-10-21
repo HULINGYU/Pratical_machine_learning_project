@@ -2,8 +2,9 @@
 title: "Pratical Machine Learning write-up Project"
 author: "lingyu hu"
 date: "October 21, 2015"
-output: html_document
-keep_md: true
+output: 
+  html_document:
+   keep_md: true
 ---
 ### Background Introduction
 This is the R markdown file of the course project for the Pritical Machine Learning class. Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement ??? a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it.In this project,using the data data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants,a model is bulit to predict the manner in which they did the exercise.
