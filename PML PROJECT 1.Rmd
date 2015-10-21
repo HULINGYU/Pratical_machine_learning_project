@@ -6,7 +6,7 @@ output: html_document
 keep_md: true
 ---
 ### Background Introduction
-This is the R markdown file of the course project for the Pritical Machine Learning class. Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it.In this project,using the data data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants,a model is bulit to predict the manner in which they did the exercise.
+This is the R markdown file of the course project for the Pritical Machine Learning class. Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement ??? a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it.In this project,using the data data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants,a model is bulit to predict the manner in which they did the exercise.
 
 ###Data Sources
 The training data for this project are available here:
@@ -30,10 +30,10 @@ set.seed(12345)
 ```{r}
 trainurl<-"http://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
 testurl<-"http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
-download.file(trainurl,"~/coursera/train.csv",method="curl")
-download.file(testurl,"~/coursera/test.csv",method="curl")
-training<-read.csv("train.csv")
-testing<-read.csv("test.csv")
+download.file(trainurl,"~/coursera/train1.csv",method="curl")
+download.file(testurl,"~/coursera/test1.csv",method="curl")
+training<-read.csv("~/coursera/train1.csv")
+testing<-read.csv("~/coursera/test1.csv")
 ```
 ###Partioning the training into testing and training sets
 ```{r}
